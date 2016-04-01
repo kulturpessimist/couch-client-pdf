@@ -1,0 +1,14 @@
+[
+	{
+		"from":		"",
+		"to":		"status.txt"
+	},
+	{
+		"from":		"/d/:slug",
+		"to":		"_show/debug/:slug"
+	},
+	{
+		"from":		"/:slug",
+		"to":		"_show/redirect/:slug"
+	}
+]

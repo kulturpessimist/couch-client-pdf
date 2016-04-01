@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>jsPDF</title>
+	<style>
+		html,body{ margin:0; padding:0; }
+		iframe.viewer{
+			margin:auto;
+			width:100vw; height:100vh;
+			position:relative; z-index:999;
+		}
+	</style>
+</head>
+<body>
+	<iframe class="viewer" type="application/pdf" frameborder="0"></iframe>
+
+	<script src="jspdf.debug.js"></script>
+	<script src="svg.js"></script>
+	<script src="addimage.js"></script>
+
+	<script src="playground.js"></script>
+</body>
+</html>
